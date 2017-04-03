@@ -1,0 +1,1 @@
+<p>Temat wiadomości: {!! $data->subject !!}</p><p>Napisał: {!! $data->firstname_lastname !!}</p><p>{!! $data->description !!}</p>

@@ -1,0 +1,79 @@
+            html, body {
+                font-family: 'Amiko', sans-serif;
+                margin: 0;
+            }
+            .container{
+                padding-top:100px;
+            }
+            .container img{
+                margin-bottom: 50px;
+                height: 100px;
+            }
+            @media screen and (min-width: 992px) and (max-width: 1199px){
+                .container{
+                    padding-top: 50px;
+                }
+                .container img{
+                    margin-bottom: 30px;
+                    height: 80px;
+                }
+            }
+            .form-control{
+                color:black !important;
+            }
+            #pierwszy-krok{
+                background: black;
+                min-height: 100vh;
+                padding-bottom:50px;
+            }
+            
+            #drugi-krok{
+                background: #BC0101;
+            }
+            .pokaz-drugi-krok{
+                min-height: 100vh;
+                padding-bottom: 50px;
+                
+            }
+            .ukryj-drugi-krok-div{
+                display: none;
+            }
+            .pokaz-drugi-krok-div{
+                display: block;
+            }
+            .alert{
+                display: none;
+            }
+            .pokaz{
+                display: block;
+            }
+            .fa-spinner{
+                display:none;
+            }
+            .pokaz-fa{
+                display: inline-block;
+            }
+            
+            .form-control{
+                border-radius:0px;
+            }
+            .boxik{
+                background: white;
+                padding-top: 20px;
+                margin-top: 20px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+            }
+            .tytul-database{
+                color:white;
+                margin-top: 20px;
+            }
+            @media screen and (max-width: 992px)
+            {
+                .container{
+                    padding-top:10px;
+                }
+            }
+
+
+            

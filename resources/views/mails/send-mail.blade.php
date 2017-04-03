@@ -1,0 +1,1 @@
+<p style="text-align: center; ">{!! $subject !!}&nbsp;</p><p style="text-align: center; ">{!! $description !!}</p><p><br></p><p></p>
